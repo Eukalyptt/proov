@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proovitöö</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Matkasport Tooted</h1>
+
+    <label>kasutatav URL:</label>
+    <input type="text" id="shop-url" placeholder="https://matkasport.ee">
+    <button id="fetch-data">Lae populaarsemad kategooriad</button>
+    <button id="fetch-all-categories">Lae kõik kategooriad</button>
+
+    <table id="product-table">
+        <thead>
+            <tr>
+                <th>Kategooriad</th>
+            </tr>
+        </thead>
+        <tbody id="dashboard">
+            <!-- Andmed lisatakse siia -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
